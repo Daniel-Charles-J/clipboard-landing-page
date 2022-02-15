@@ -143,3 +143,121 @@ body {
   }
   
   /* Footer section completed */
+
+  /* Media query */
+  @media only screen and (min-width: 600px) {
+    .header{
+      padding-top: 100px;
+    }
+  
+    .main .sec2{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+    }
+    
+    .main .sec2 .sec2-left{
+      width: 75%;
+    }
+    .main .sec2 .sec2-left img{
+      width: 100%;
+      height: 400px;
+    }
+    
+    .main .sec2 .sec2-right{
+      width: 75%;
+      text-align: center;
+    }
+    
+    .main .sec4{
+      grid-template-columns: 50%;
+      text-align: center;
+    }
+  
+    .main .sec5{
+      grid-template-columns: 40%;
+      grid-template-rows: 20% 20% 20% 20% 20%;
+      gap: 20px;
+    }
+  
+    .footer{
+      flex-direction: column;
+      gap: 50px;
+    }
+  
+    .footer .footer-sec2{
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .footer .footer-sec2 ul .li{
+      margin-bottom: 25px;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .header{
+      padding-top: 150px;
+    }
+  
+    .main .sec2{
+      flex-direction: row;
+      gap: 50px;
+    }
+    
+    .main .sec2 .sec2-left{
+      width: 50%;
+    }
+    
+    .main .sec2 .sec2-right{
+      width: 40%;
+      text-align: left;
+    }
+  
+    .main .sec4{
+      grid-template-columns: 20% 20% 20%;
+    }
+  
+    .main .sec5{
+      grid-template-columns: 15% 15% 15% 15% 15%;
+      gap: 0px;
+    }
+  
+    .sec5 img{
+      width: 100px;
+    }
+  
+    .footer{
+      flex-direction: row;
+      gap: 0px;
+    }
+    .footer .footer-sec2{
+      flex-direction: row;
+      justify-content: space-evenly;
+      text-align: left;
+    }
+  
+    .footer .footer-sec2 ul .li{
+      margin-bottom: 0px;
+    }
+  }
+  
+  /* Large devices (laptops/desktops, 972px and up) */
+  @media only screen and (min-width: 972px) {
+    .header{
+      padding-top: 200px;
+    }
+  
+    .sec5 img{
+      width: 120px;
+    }
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .sec5 img{
+      width: 150px;
+    }
+  }
