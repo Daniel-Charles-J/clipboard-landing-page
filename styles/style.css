@@ -51,10 +51,17 @@ body {
   }
   .btn1{
     background: hsl(171, 66%, 44%);
+    border-style: none;
+    color: white;
+    margin-top:2rem;
+    margin-bottom: 2rem;
   }
   
   .btn2{
     background: hsl(233, 100%, 69%);
+    border-style: none;
+    color: white;
+    margin-top: 2rem;
   }
   
   .main .sec2{
@@ -109,5 +116,30 @@ body {
   /* Main section completed */
 
   /* Footer section started */
+  .footer{
+    background: hsl(200, 3%, 81%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .footer img{
+    width: 50px;
+    height: 50px;
+  }
+  
+  .footer .footer-sec2, .footer .footer-sec3{
+    display: flex;
+  }
+  
+  .footer .footer-sec3{
+    gap: 20px;
+  }
+  
+  .footer .footer-sec3 img{
+    width: 30px;
+    height: 30px;
+  }
   
   /* Footer section completed */
